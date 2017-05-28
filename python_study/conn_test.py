@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+# coding=utf-8
+import socket
+print (socket.gethostbyaddr("8.8.8.8"))
+print (socket.gethostbyname("www.google.com"))
